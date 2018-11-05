@@ -148,6 +148,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -175,10 +176,13 @@
     <Content Include="Content\css\owl.theme.default.min.css" />
     <Content Include="Content\css\style.css" />
     <Content Include="Content\images\alexis-fauvet-1126759-unsplash.jpg" />
+    <Content Include="Content\images\birishiri.jpg" />
+    <Content Include="Content\images\cover.jpg" />
     <Content Include="Content\images\david-lundgren-1127640-unsplash.jpg" />
     <Content Include="Content\images\fancycrave-277756-unsplash.jpg" />
     <Content Include="Content\images\bg_1.jpg" />
     <Content Include="Content\images\bg_3.jpg" />
+    <Content Include="Content\images\gazipur.jpg" />
     <Content Include="Content\images\image_10.jpg" />
     <Content Include="Content\images\image_4.jpg" />
     <Content Include="Content\images\image_5.jpg" />
@@ -189,6 +193,7 @@
     <Content Include="Content\images\img_1.jpg" />
     <Content Include="Content\images\img_2.jpg" />
     <Content Include="Content\images\img_3.jpg" />
+    <Content Include="Content\images\jaflong.jpg" />
     <Content Include="Content\images\loc.png" />
     <Content Include="Content\images\menu_1.jpg" />
     <Content Include="Content\images\menu_2.jpg" />
@@ -281,6 +286,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Navigation\Works.cshtml" />
+    <Content Include="Views\Navigation\Blogs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
